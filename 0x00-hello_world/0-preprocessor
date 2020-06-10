@@ -1,3 +1,2 @@
 #!/bin/bash
-c=betty($CFILE)
- 
+gcc -E[$CFILE] -o c
