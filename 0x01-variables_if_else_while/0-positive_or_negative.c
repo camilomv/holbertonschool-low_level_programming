@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - take a ramdom number and say if it is positive, negative or zero
  * Return: 0 if the program runs in a good way
