@@ -5,7 +5,7 @@
  * Return: 0 if the program runs well
  */
 
-int main(void)
+int print_alphabet(void)
 {
 	char (c);
 
