@@ -5,7 +5,7 @@
  * Return: 0 if the program runs in a good way
  */
 
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	char c;
 	int i;
@@ -18,5 +18,4 @@ int print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
