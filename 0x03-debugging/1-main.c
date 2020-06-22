@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- * It is necessary to increment the value of i inside the while loop
  * Return: 0
  */
 
@@ -16,7 +15,7 @@ int main(void)
 
         while (i < 10)
         {
-                putchar(i);
+                putchar(i);  /** It is necessary to increment i */
         }
 
         printf("Infinite loop avoided! \\o/\n");
