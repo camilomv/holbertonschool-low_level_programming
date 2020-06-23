@@ -9,27 +9,23 @@
 
 void jack_bauer(void)
 {
-	int hh1 = 0;
-	int hh2 = 0;
+	int hh = 0;
 	int mm = 0;
 
-	while ((hh1 / 3) <= 0)
+	while (hh <= 23)
 	{
-		while ((hh2 / 10) <= 0)
+		while (mm  <= 59)
 		{
-			while ((mm / 10) <= 60)
-			{
-				_putchar(hh1 % 10 + '0');
-				_putchar(hh2 % 10 + '0');
-				_putchar(':');
-				_putchar(mm % 10 + '0');
-				_putchar('\n');
-				mm++;
-			}
-			hh2++;
-			mm = 0;
+
+			_putchar(hh / 10 + '0');
+			_putchar(hh % 10 + '0');
+			_putchar(':');
+			_putchar(mm / 10 + '0');
+			_putchar(mm % 10 + '0');
+			_putchar('\n');
+			mm++;
 		}
-		hh1++;
-		hh2 = 0;
+		hh++;
+		mm = 0;
 	}
 }
